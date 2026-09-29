@@ -54,5 +54,6 @@ variable "tags" {
   default = {
     environment = "DEV"
     terraform   = "true"
+    
   }
 }
