@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh "terraform init " 
             }
-        }The terraform fmt commands formate the all code and validate command do the validate terraform code
+        }The terraform fmt commands formate the all code and validate command  the validate terraform code
         //
          stage ('Formate and Validate') {
             steps {
